@@ -56,7 +56,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>
-            © {currentYear} Praveen. Made with <FaHeart className="heart" /> using React.js
+            © {currentYear} Praveen Sankar. Crafted with passion and code.
           </p>
         </div>
       </div>

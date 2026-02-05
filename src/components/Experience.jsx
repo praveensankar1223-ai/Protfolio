@@ -18,21 +18,13 @@ const Experience = () => {
       duration: 'Sep 2025 - Dec 2025',
       description: 'Gained hands-on experience in building full-stack web applications using HTML, CSS, JavaScript, and the MERN stack, including REST API integration and database handling.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'MERN Stack', 'REST API', 'MongoDB']
-    },
-    {
-      title: 'React JS Developer',
-      company: 'Laabam One Business Solutions Private Limited',
-      location: 'Madurai, India',
-      duration: 'December 2025 - Present',
-      description: 'Working as a Frontend Developer specializing in React.js, focusing on user engagement and intuitive navigation. Developing reusable UI components, connecting Figma designs with production-ready interfaces, and integrating seamless APIs.',
-      technologies: ['React.js', 'Next.js', 'TypeScript', 'JavaScript', 'Figma', 'REST APIs', 'Bootstrap', 'Material UI']
     }
   ];
 
   return (
     <section className="experience section" id="experience">
       <div className="container">
-        <motion.h2 
+        <motion.h2
           className="section-title"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -42,7 +34,7 @@ const Experience = () => {
           Internships
         </motion.h2>
 
-        <motion.div 
+        <motion.div
           className="experience-content"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -51,7 +43,7 @@ const Experience = () => {
         >
           <div className="timeline">
             {internships.map((internship, index) => (
-              <motion.div 
+              <motion.div
                 key={index}
                 className="timeline-item"
                 initial={{ opacity: 0, x: -50 }}
@@ -87,7 +79,7 @@ const Experience = () => {
             ))}
           </div>
 
-          <motion.div 
+          <motion.div
             className="stats-container"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -101,7 +93,7 @@ const Experience = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
-                3
+                2
               </motion.h4>
               <p>Internships Completed</p>
             </div>
@@ -112,7 +104,7 @@ const Experience = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.5 }}
               >
-                8+
+                6+
               </motion.h4>
               <p>Months Experience</p>
             </div>

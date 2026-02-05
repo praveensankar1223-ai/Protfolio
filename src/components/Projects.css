@@ -33,8 +33,9 @@
   overflow: hidden;
 }
 
-.project-emoji {
+.project-icon {
   font-size: 5rem;
+  color: white;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
 
@@ -163,7 +164,7 @@
     height: 150px;
   }
 
-  .project-emoji {
+  .project-icon {
     font-size: 4rem;
   }
 

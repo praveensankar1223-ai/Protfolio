@@ -23,7 +23,11 @@ const Skills = () => {
     'Critical Thinking',
     'Communication',
     'Quick Learning',
-    'Team Collaboration'
+    'Team Collaboration',
+    'Adaptability',
+    'Attention to Detail',
+    'Creative Thinking',
+    'Leadership'
   ];
 
   return (

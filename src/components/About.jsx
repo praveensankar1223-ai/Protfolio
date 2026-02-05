@@ -42,25 +42,22 @@ const About = () => {
           <motion.div className="about-text" variants={itemVariants}>
             <h3>Who Am I?</h3>
             <p>
-              I'm Praveen S, a passionate <strong>Full Stack Developer</strong> from Madurai, 
-              specializing in building exceptional digital experiences. With expertise in 
-              modern web technologies like React.js, Node.js, and MongoDB, I create 
-              responsive and user-friendly applications.
+              I am Praveen Sankar, a passionate <strong>UI/UX Designer and Full Stack Developer</strong> who enjoys building user-friendly and visually appealing web applications. I focus on creating seamless digital experiences by combining creative design thinking with strong technical skills.
             </p>
             <p>
-              Currently working as a <strong>React JS Developer at Cyberbunk</strong>, I focus on 
-              developing reusable UI components, connecting Figma designs with production-ready 
-              interfaces, and integrating seamless APIs. I'm passionate about clean code, 
-              performance optimization, and delivering solutions that make a difference.
+              I have hands-on experience in developing responsive and scalable web applications using modern technologies like <strong>MongoDB, Express.js, React.js, and Node.js</strong>. I recently completed a Full Stack Web Development internship where I worked on real-time projects and gained practical industry exposure.
+            </p>
+            <p>
+              I am always eager to learn new technologies, improve my problem-solving skills. My goal is to grow as a developer and contribute to meaningful and challenging projects.
             </p>
             <div className="contact-info">
               <div className="info-item">
                 <span className="label">Email:</span>
-                <span className="value">praveensharma2523@gmail.com</span>
+                <span className="value">praveensankar1223@gmail.com</span>
               </div>
               <div className="info-item">
                 <span className="label">Phone:</span>
-                <span className="value">+91 9004747232</span>
+                <span className="value">+91 90034747232</span>
               </div>
               <div className="info-item">
                 <span className="label">Location:</span>

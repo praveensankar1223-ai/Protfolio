@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => {
@@ -20,10 +20,22 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add form submission logic here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! I will get back to you soon.');
-    setFormData({ name: '', email: '', subject: '', message: '' });
+    
+    // Create mailto link with form data
+    const subject = encodeURIComponent(formData.subject);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    );
+    const mailtoLink = `mailto:praveensankar1223@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Open email client
+    window.location.href = mailtoLink;
+    
+    // Clear form
+    setTimeout(() => {
+      setFormData({ name: '', email: '', subject: '', message: '' });
+      alert('Your email client will open. Please send the email from there.');
+    }, 100);
   };
 
   return (
@@ -63,7 +75,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4>Email</h4>
-                  <p>praveensharma2523@gmail.com</p>
+                  <p>praveensankar1223@gmail.com</p>
                 </div>
               </motion.div>
 
@@ -72,7 +84,7 @@ const Contact = () => {
                 whileHover={{ x: 10 }}
               >
                 <div className="contact-icon">
-                  <FaPhone />
+                  <FaPhoneAlt />
                 </div>
                 <div>
                   <h4>Phone</h4>

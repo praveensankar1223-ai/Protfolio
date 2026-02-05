@@ -1,4 +1,4 @@
-# Praveen S - Portfolio Website
+# Praveen - Portfolio Website
 
 A modern, responsive portfolio website built with React.js featuring smooth animations and an attractive dark theme with red accents.
 
@@ -85,8 +85,8 @@ You can customize the portfolio by:
 
 ## Contact
 
-- **Email**: praveensharma2523@gmail.com
-- **Phone**: +91 9004747232
+- **Email**: praveensankar@gmail.com
+- **Phone**: +91 9003473232
 - **Location**: Madurai, Tamil Nadu, India
 
 ## License

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes, FaDownload } from 'react-icons/fa';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -45,7 +45,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="experience" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>
-              EXPERIENCE
+              INTERNSHIPS
             </Link>
           </li>
           <li>
@@ -57,6 +57,11 @@ const Navbar = () => {
             <Link to="contact" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>
               CONTACT
             </Link>
+          </li>
+          <li>
+            <a href="/Praveen-resume.pdf" download="Praveen-Resume.pdf" className="resume-btn">
+              <FaDownload /> RESUME
+            </a>
           </li>
         </ul>
       </div>

@@ -19,7 +19,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            Hello, I'm Praveen S
+            Hello, I'm Praveen
           </motion.p>
           
           <motion.h1 
@@ -58,16 +58,16 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 1, duration: 0.8 }}
           >
-            <a href="https://github.com/praveens" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/praveensankar1223-ai" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/praveens" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/praveensankar-mdu" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
-            <a href="https://instagram.com/praveens" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/prav_eez___/" target="_blank" rel="noopener noreferrer">
               <FaInstagram />
             </a>
-            <a href="mailto:praveensharma2523@gmail.com">
+            <a href="mailto:praveensankar1223@gmail.com">
               <FaEnvelope />
             </a>
           </motion.div>
